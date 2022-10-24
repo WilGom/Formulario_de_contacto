@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>Formulario de contacto</title>
   </head>
   <body>
     <div class="contenido">
-      <h1>Contacta con nosotros</h1>
+      <h1 class="logo">Contacta con <span>nosotros</span></h1>
       <div class="contacto-envoltura">
         <div class="formulario-contacto">
           <h3>Contactenos</h3>
@@ -29,11 +30,11 @@
               <label for="affair">Asunto</label>
               <input type="text" name="affair" id="affair" />
             </p>
-            <p>
+            <p class="bloque">
               <label for="message">Mensaje</label>
               <textarea name="message" id="message" rows="3"></textarea>
             </p>
-            <p>
+            <p class="bloque">
               <button type="submit">Enviar</button>
             </p>
           </form>
